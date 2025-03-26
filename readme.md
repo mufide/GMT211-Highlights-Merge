@@ -26,4 +26,4 @@ Using a full GitHub URL like above requires these extra steps:
 -Finally, update your README with that URL
 ```
 This process creates unnecessary workload.
-➡️ To keep it simple, prefer the relative path format whenever possible.
+**To keep it simple, prefer the relative path format whenever possible.**
