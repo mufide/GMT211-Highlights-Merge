@@ -15,6 +15,7 @@ Please **use relative paths** when inserting images. This allows you to push bot
 ✅ Recommended format:
 ```markdown
 ![Git Download](/img/git-download.png)
+```
 
 ❌ Not recommended (but still works):
 ```markdown
@@ -23,5 +24,6 @@ Using a full GitHub URL like above requires these extra steps:
 -First, push the image
 -Then copy the GitHub-hosted image URL
 -Finally, update your README with that URL
+```
 This process creates unnecessary workload.
 ➡️ To keep it simple, prefer the relative path format whenever possible.
