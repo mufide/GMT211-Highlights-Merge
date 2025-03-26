@@ -40,8 +40,9 @@ Good commit messages should:
 
 **Note:** Your commit messages will also be reviewed during the evaluation of your assignments.
 
+---
 
-## 🔀 Merge Process Steps
+## Merge Process Steps
 
 A **branch** is a copy of the main project where you can make changes without affecting the main version. It's commonly used for:
 - Adding new features
@@ -50,9 +51,8 @@ A **branch** is a copy of the main project where you can make changes without af
 
 **Merge** is the process of combining changes from one branch into another — usually from a feature branch into the `main` (or `master`) branch.
 
----
 
-## Step-by-Step: Branch & Merge
+### Step-by-Step: Branch & Merge
 
 ###  1. Create a New Branch
 ```bash
