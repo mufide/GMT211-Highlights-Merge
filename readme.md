@@ -28,16 +28,26 @@ Using a full GitHub URL like above requires these extra steps:
 This process creates unnecessary workload.
 **To keep it simple, prefer the relative path format whenever possible.**
 
+### 3. Meaningful Commit Messages
+
+When working on your assignments, make sure your commit messages are **clear, descriptive**, and meaningful.  
+Each message should help you (and others) understand what changes were made in that commit.
+
+Good commit messages should:
+- Clearly explain what was done
+- Be related to the actual changes
+- Help you remember the purpose of the update later
+
+**Note:** Your commit messages will also be reviewed during the evaluation of your assignments.
+
 
 ## 🔀 Merge Process Steps
 
-### 🌿 What is a Branch?
 A **branch** is a copy of the main project where you can make changes without affecting the main version. It's commonly used for:
 - Adding new features
 - Fixing bugs
 - Testing without risk
 
-### 🔗 What is Merge?
 **Merge** is the process of combining changes from one branch into another — usually from a feature branch into the `main` (or `master`) branch.
 
 ---
