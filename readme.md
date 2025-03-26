@@ -1,4 +1,4 @@
-## ❗ Important Points to Consider
+## Important Points to Consider
 
 ### 1. README Content Requirements
 
