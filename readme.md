@@ -65,7 +65,6 @@ git checkout yourbranchname
 ```
 
 ###  3. Merge the Branch into main
-First, switch to the main branch
 ```bash
 git checkout main     #First, switch to the main branch
 git pull origin main    #Then pull the latest changes from the remote
