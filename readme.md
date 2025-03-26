@@ -54,17 +54,17 @@ A **branch** is a copy of the main project where you can make changes without af
 
 ### Step-by-Step: Branch & Merge
 
-###  1. Create a New Branch
+1. Create a New Branch
 ```bash
 git branch yourbranchname
 ```
 
-###  2. Switch to the New Branch
+2. Switch to the New Branch
 ```bash
 git checkout yourbranchname
 ```
 
-###  3. Merge the Branch into main
+3. Merge the Branch into main
 ```bash
 git checkout main     #First, switch to the main branch
 git pull origin main    #Then pull the latest changes from the remote
