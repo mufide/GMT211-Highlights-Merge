@@ -27,3 +27,38 @@ Using a full GitHub URL like above requires these extra steps:
 ```
 This process creates unnecessary workload.
 **To keep it simple, prefer the relative path format whenever possible.**
+
+
+## 🔀 Merge Process Steps
+
+### 🌿 What is a Branch?
+A **branch** is a copy of the main project where you can make changes without affecting the main version. It's commonly used for:
+- Adding new features
+- Fixing bugs
+- Testing without risk
+
+### 🔗 What is Merge?
+**Merge** is the process of combining changes from one branch into another — usually from a feature branch into the `main` (or `master`) branch.
+
+---
+
+## Step-by-Step: Branch & Merge
+
+###  1. Create a New Branch
+```bash
+git branch yourbranchname
+```
+
+###  2. Switch to the New Branch
+```bash
+git checkout yourbranchname
+```
+
+###  3. Merge the Branch into main
+First, switch to the main branch
+```bash
+git checkout main     #First, switch to the main branch
+git pull origin main    #Then pull the latest changes from the remote
+git merge yourbranchname    #Now merge your feature branch into main
+git push origin main   #Finally, push the updated main to GitHub
+```
